@@ -1,5 +1,11 @@
 // Dad Joke Showdown — one dad joke, written to /output/entry.txt.
 // Deterministic: same joke on every run.
+//
+// The joke: "I told my kids the moon is just the sun working the night shift."
+// Why this one: a clean day/night pun ("night shift") that lands on first
+// read, fresh rather than a retread of the classics, tight at 64 characters,
+// and built to be said out loud at the dinner table — the punchline ("night
+// shift") arrives at the very end, straight-faced.
 import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 
 const JOKE =
